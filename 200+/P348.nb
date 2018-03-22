@@ -1,0 +1,67 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      1467,         57]
+NotebookOptionsPosition[      1154,         41]
+NotebookOutlinePosition[      1501,         56]
+CellTagsIndexPosition[      1458,         53]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Length", "[", 
+  RowBox[{"Reduce", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"x", ">", "0"}], "&&", 
+     RowBox[{"y", ">", "0"}], "&&", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"x", "^", "2"}], "+", 
+       RowBox[{"y", "^", "3"}]}], "\[Equal]", "5229225"}]}], ",", 
+    RowBox[{"{", 
+     RowBox[{"x", ",", "y"}], "}"}], ",", "Integers"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.67977743034344*^9, 3.679777506603294*^9}}],
+
+Cell[BoxData["4"], "Output",
+ CellChangeTimes->{{3.67977745439937*^9, 3.6797775070349293`*^9}}]
+}, Open  ]]
+},
+WindowSize->{755, 173},
+WindowMargins->{{293, Automatic}, {Automatic, 64}},
+FrontEndVersion->"10.3 for Microsoft Windows (64-bit) (December 10, 2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 460, 13, 31, "Input"],
+Cell[1043, 37, 95, 1, 31, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

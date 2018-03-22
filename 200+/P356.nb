@@ -1,0 +1,95 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      2554,         85]
+NotebookOptionsPosition[      2162,         67]
+NotebookOutlinePosition[      2509,         82]
+CellTagsIndexPosition[      2466,         79]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"F", "[", "n_", "]"}], ":=", 
+  RowBox[{"x", "/.", 
+   RowBox[{"FindRoot", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"x", "^", "3"}], "-", 
+      RowBox[{
+       RowBox[{"n", "^", "2"}], " ", 
+       RowBox[{"x", "^", "2"}]}], "+", "n"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"x", ",", "1", ",", "100"}], "}"}]}], "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.6797758253206844`*^9, 3.679775951717125*^9}, 
+   3.679776000974352*^9, {3.679776126253869*^9, 3.6797761352211905`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Mod", "[", 
+  RowBox[{
+   RowBox[{"Sum", "[", 
+    RowBox[{
+     RowBox[{"Floor", "[", 
+      RowBox[{
+       RowBox[{"F", "[", "i", "]"}], "^", "987654321"}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"i", ",", "1", ",", "30"}], "}"}]}], "]"}], ",", 
+   RowBox[{"10", "^", "8"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6797760474056296`*^9, 3.6797760832673354`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"FindRoot", "::", "cvmit"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Failed to converge to the requested accuracy or precision \
+within \[NoBreak]\\!\\(\\*RowBox[{\\\"100\\\"}]\\)\[NoBreak] iterations. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/FindRoot/cvmit\\\", \
+ButtonNote -> \\\"FindRoot::cvmit\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.679776083967842*^9, 3.679776147919138*^9}],
+
+Cell[BoxData["31803648"], "Output",
+ CellChangeTimes->{3.6797760881606064`*^9, 3.6797761521823645`*^9}]
+}, Open  ]]
+},
+WindowSize->{878, 397},
+WindowMargins->{{Automatic, 225}, {Automatic, 22}},
+FrontEndVersion->"10.3 for Microsoft Windows (64-bit) (December 10, 2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 517, 14, 31, "Input"],
+Cell[CellGroupData[{
+Cell[1100, 38, 397, 11, 31, "Input"],
+Cell[1500, 51, 540, 10, 21, "Message"],
+Cell[2043, 63, 103, 1, 31, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
